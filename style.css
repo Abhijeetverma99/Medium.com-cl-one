@@ -408,7 +408,7 @@ nav li:last-child a {
 
     .hero-section {
         width: auto;
-        height: 80vh;
+        height: 60vh;
         align-items: flex-end;
         justify-content: flex-end;
     }
