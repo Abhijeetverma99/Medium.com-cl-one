@@ -59,7 +59,7 @@ nav li:last-child a {
 
 .hero-section {
     width: 100%;
-    min-height: 90vh;
+    height: 90vh;
     background-color: #ffc017;
     display: flex;
     padding: 0 0 0 50px;
@@ -402,13 +402,15 @@ nav li:last-child a {
 
 
     nav {
-        width: 100vw !important;
+        width: 100vw;
     }
 
 
     .hero-section {
         width: auto;
+        height: 80vh;
         padding: 0 20px;
+        align-items: flex-start;
     }
 
     .trending {
@@ -482,8 +484,8 @@ nav li:last-child a {
 
 
 @media (max-width:500px) {
- 
-    
+
+
     .hero-section {
         width: auto;
         padding: 0 20px;
@@ -492,11 +494,13 @@ nav li:last-child a {
     .trending {
         padding: 0 0 10px 30px;
     }
+
     .section-2-div {
         width: 100%;
         align-items: center;
         justify-content: center;
     }
+
     .first-ul {
         width: 100%;
     }
@@ -555,4 +559,3 @@ nav li:last-child a {
         display: none;
     }
 }
- 
