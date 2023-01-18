@@ -409,8 +409,13 @@ nav li:last-child a {
     .hero-section {
         width: auto;
         height: 80vh;
-        padding: 0 20px;
-        align-items: flex-start;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .first-hero-sec {
+        height: auto;
+        padding: 0 0 30px 0;
     }
 
     .trending {
